@@ -41,6 +41,7 @@ public class Main {
                 System.out.println("Digita 5 para salir 🚪");
 
                 Integer opcionSeleccionada=1;
+                ArrayList<Object>productos=new ArrayList<>();
                 HashMap<String,Object> producto=new HashMap<>();
                 while(opcionSeleccionada != 5){
                     System.out.print("\n Que opciones eliges? ");
@@ -59,7 +60,7 @@ public class Main {
 
                         //Necesito llevar el diccionario a una lista
                         //Declarando una lista en java
-                        ArrayList<Object>productos=new ArrayList<>();
+
                         // Poblando o ingersando un elemento a una lista
                         productos.add(producto);
                         System.out.println(productos);
