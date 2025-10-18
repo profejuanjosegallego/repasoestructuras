@@ -85,7 +85,7 @@ public class Main {
 
 
             }else{
-                System.out.println(colorRojo+"\nRevisa los datos ingresados 💩");
+                System.out.println(colorRojo+"\nRevisa los datos ingresados 🐴");
                 contador++;
             }
 
